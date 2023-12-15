@@ -20,7 +20,7 @@ The Image Classification application on the GIIADS platform is structured into t
    - Leverage one of the four available pretrained models.
 
 3. **Prediction:**
-   The Prediction component, although covered separately, is the final step in applying trained models to new data for predictions.
+   The Prediction component, although covered separately, is the final step in applying trained models to new data for predictions
 
 Project Structure
 ------------------
