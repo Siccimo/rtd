@@ -9,8 +9,8 @@ Welcome to giiads_platform's documentation!
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: source
+   :caption: classif
 
-   source/overview
-   source/dataimportation
-   source/Model
+   classif/overview
+   classif/dataimportation
+   classif/Model
