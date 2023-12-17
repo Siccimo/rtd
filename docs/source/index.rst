@@ -11,6 +11,6 @@ Welcome to giiads_platform's documentation!
    :hidden:
    :caption: source
 
-   Tabular_data/overview
-   Tabular_data/dataimportation
-   Tabular_data/Model
+   source/overview
+   source/dataimportation
+   source/Model
