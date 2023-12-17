@@ -47,22 +47,22 @@ Users can seamlessly integrate their pre-existing models into the application, e
 
 The "Choose Pretrained Model" option offers users the convenience of leveraging established and well-performing models for image classification. This approach is particularly beneficial for users seeking a quick start or for those who prefer not to build a model from scratch. The application provides a selection of four popular pretrained models:
 
-      a.**MobileNetV2:**
+      a. **MobileNetV2:**
 
         -A lightweight and efficient model designed for mobile and edge devices.
         -Ideal for scenarios with limited computational resources without compromising accuracy.
 
-      b.**ResNet50:**
+      b. **ResNet50:**
 
         -A deep residual network with 50 layers, known for its excellent performance in image recognition tasks.
         -Well-suited for diverse datasets and complex image classification challenges.
 
-      c.**DenseNet121:**
+      c. **DenseNet121:**
 
         -A densely connected convolutional network with 121 layers.
         -Facilitates feature reuse and enables efficient information flow through the network.
 
-      d.**VGG16:**
+      d. **VGG16:**
 
         -A classic deep learning architecture with 16 layers.
         -Recognized for its simplicity and effectiveness in capturing hierarchical features.
@@ -100,8 +100,7 @@ Adjusting these hyperparameters enables users to optimize the model's learning p
 ------------------------
 
       -As the model iterates through epochs, real-time updates on accuracy and loss are streamed through Socket.IO.
-      -Users can observe the dynamic behavior of these metrics, gaining insights into the model's convergence and       
-       performance improvements.
+      -Users can observe the dynamic behavior of these metrics, gaining insights into the model's convergence and performance improvements.
 
 During the training process, the application provides a dynamic and real-time monitoring display, enhancing the user's ability to track the model's progression effectively. Leveraging Socket.IO, the application delivers live updates on crucial metrics, including accuracy and loss. 
 
